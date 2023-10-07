@@ -24,7 +24,7 @@ function MeaningsModal({ meanings }) {
         <ul>
           {Object.entries(meanings).map(([word, meaning]) => (
             <li key={word}>
-              <strong>{word}:</strong> {meaning}
+              <strong>{word}:</strong> {}
             </li>
           ))}
         </ul>

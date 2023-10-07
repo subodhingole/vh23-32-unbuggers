@@ -1,7 +1,7 @@
 function OptionsComponent({ options, onOptionClick }) {
   return (
     <div className="flex gap-4 mt-4">
-      {options.map((option) => (
+      {options?.map((option) => (
         <button
           key={option}
           onClick={() => onOptionClick(option)}
